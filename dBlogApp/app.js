@@ -1,3 +1,4 @@
+
 var blogApp = angular.module('dBlogApp', ['ngRoute', 'ngMessages', 'angularUtils.directives.dirPagination', 'ngCookies' ]);
 
     blogApp.config(['$routeProvider',
@@ -187,32 +188,32 @@ blogApp.factory('ArticleService', function(){
           
       var posts = [ 
                 { 
-                  title: "first article", 
+                  title: "Microbes can play games with the mind", 
                   id: 1, 
-                  data: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.", 
+                  data: "The 22 men took the same pill for four weeks. When interviewed, they said they felt less daily stress and their memories were sharper. The brain benefits were subtle, but the results, reported at last year’s annual meeting of the Society for Neuroscience, got attention. That’s because the pills were not a precise chemical formula synthesized by the pharmaceutical industry. The capsules were brimming with bacteria. In the ultimate PR turnaround, once-dreaded bacteria are being welcomed as health heroes. People gobble them up in probiotic yogurts, swallow pills packed with billions of bugs and recoil from hand sanitizers. Helping us nurture the microbial gardens in and on our bodies has become big business, judging by grocery store shelves. These bacteria are possibly working at more than just keeping our bodies healthy: They may be changing our minds. Recent studies have begun turning up tantalizing hints about how the bacteria living in the gut can alter the way the brain works. These findings raise a question with profound implications for mental health: Can we soothe our brains by cultivating our bacteria? By tinkering with the gut’s bacterial residents, scientists have changed the behavior of lab animals and small numbers of people. Microbial meddling has turned anxious mice bold and shy mice social. Rats inoculated with bacteria from depressed people develop signs of depression themselves. And small studies of people suggest that eating specific kinds of bacteria may change brain activity and ease anxiety. Because gut bacteria can make the very chemicals that brain cells use to communicate, the idea makes a certain amount of sense. Though preliminary, such results suggest that the right bacteria in your gut could brighten mood and perhaps even combat pernicious mental disorders including anxiety and depression. The wrong microbes, however, might lead in a darker direction.",
                   createdAt: "2013-04-23T18:25:43.511Z", 
-                  by: "Dumitru brinza" 
+                  by: "Homer Simpson" 
                 },
                  { 
-                    title: "2 article", 
+                    title: "Sesame Street's Elmo and Raya Warn Kids About Zika", 
                     id: 2, 
-                    data: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.", 
+                    data: "Two chipper Sesame Street Muppets are lending their cheerful voices to a serious topic in a pair of public-service announcements intended to raise awareness of the Zika virus among children and families. The two 30-second videos were created by the Pan American Health Organization in collaboration with Sesame Workshop, the nonprofit organization behind the children's television show Sesame Street. The recordings are meant to engage young viewers in South and Central America and the Caribbean, where the Zika virus is spreading. In the videos, popular characters Elmo and Raya share tips and suggestions that even young children can follow, instructing them on how to prevent Zika from spreading and how to avoid mosquito bites. Zika virus is currently spreading in 39 countries in the Americas, according to the Centers for Disease Control and Prevention. The virus is usually transmitted to people by the Aedes aegypti mosquito, and until recently was thought to cause mild symptoms, such as fever and rashes, which only appeared in about 20 percent of the people it infected. The familiar faces of Sesame Street characters have appeared in a number of public service initiatives over the years, helping children to understand and take action on important issues related to health and wellness, emotional well-being, literacy, and respect for others. Elmo, a character that is especially popular with Sesame Street's youngest fans, features in many of these programs, helping kids come to terms with topics including healthy eating, living with asthma, emergency preparedness and dealing with grief.", 
                     createdAt: "2014-04-23T18:25:43.511Z", 
-                    by: "Dumitru brinza2" 
+                    by: "Bart Simpson" 
                   },
                   { 
-                    title: "3 article", 
+                    title: "Deadly Venoms Help Rather Than Hurt", 
                     id: 3, 
-                    data: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.", 
+                    data: "Biochemist Glenn King spends his days getting up close and personal with the creatures that make us shudder: spiders, centipedes and scorpions. He’s collecting their often-deadly venoms to find the perfect painkiller. King, a researcher at the University of Queensland in Australia, studies the neurotoxins that allow these creatures to paralyze and kill their prey. The toxins shut down a channel on the membranes of different types of neurons. In humans, the same mechanism that spells doom",
                     createdAt: "2015-04-23T18:25:43.511Z", 
-                    by: "Dumitru brinza3" 
+                    by: "Marge Simpson" 
                   },
                   { 
-                    title: "4 article", 
+                    title: "Minimal Cell Reveals How Little We Know About Fundamental Genetics", 
                     id: 4, 
-                    data: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.", 
+                    data: "A team of biologists has synthesized the smallest genome that can encode for a living, replicating cell, but the discovery reveals how much we still don’t know about the fundamental building blocks of life. Geneticist J. Craig Venter and his colleagues at the Venter Institute started with the genome of Mycoplasma mycoides, which is a species of bacteria with the smallest genome of any self-replicating cell scientists know of so far. They inserted a foreign genetic sequence called a transposon into one gene at a time, which stopped the gene from working so the researchers could watch what happened. If the cell kept going without the disrupted gene, the researchers labelled it as non-essential and cut it out of the genome. After four years of working their way through M. mycoides’ genome, the researchers had whittled it down to the bare minimum: 473 genes, about half of the original bacterial genome. They call the result JCVI-Syn3.0, and they published their results Thursday in the journal Science. Venter and his colleagues say that some of the unknown genes occupy similar places in the bacterial genome as genes that encode universal proteins found in other organisms, but scientists aren’t sure what role those proteins play in the complex processes of life. For scientists, it was a reminder of how much we still don’t understand about fundamental biology. “Knowing that we’re missing a third of our fundamental knowledge, I think, is a very key finding, even if there’s no other uses for this organism,” says Venter. “I think we’re showing how complex life is even in the simplest of organisms, if we don’t understand the functions of a third of those genes.” ",
                     createdAt: "2012-04-23T18:25:43.511Z", 
-                    by: "Dumitru brinza4" 
+                    by: "Homer Simpson" 
                   }
                 ];
          var api = {

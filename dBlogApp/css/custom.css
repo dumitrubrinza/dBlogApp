@@ -28,11 +28,11 @@ a.navbar-brand {
     font-size: 38px;
 }
 .col-xs-12, .col-sm-6, .col-lg-8{
-	border-style: dotted;
+	/*border-style: dotted; */
   padding-bottom: 100px;
 }
 .col-xs-6{
-	border-style: dotted;
+	/* border-style: dotted; */
 }
 
 ul.list{
