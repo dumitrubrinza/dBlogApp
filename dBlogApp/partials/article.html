@@ -1,0 +1,27 @@
+<div class="table table-striped">
+	<table class="table" >
+	    <thead>
+	       <tr>
+	        <th>
+	           <p><h3>{{article.title}}</h3> </p>
+	         </th>
+	      </tr>
+	    </thead>
+        <tbody>
+          <tr>
+            <td>
+              <blockquote>
+              	 <p> &nbsp;&nbsp;&nbsp; {{article.data }}</p>
+	      	  </blockquote>
+	        </td>
+	       </tr>
+	       <tr>
+	          <td>
+	            <small>by <cite>{{article.by}}</cite></small> <p class="pull-right">{{article.createdAt | date:"MM/dd/yyyy 'at' h:mma"}} </p>
+	         </td>
+	       </tr>
+	     </tbody>
+	  </table>
+</div>    
+
+ 

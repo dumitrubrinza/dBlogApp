@@ -1,0 +1,75 @@
+ 
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+ 
+body {
+  height: 100%;
+}
+
+a.navbar-brand {
+    font-size: 38px;
+}
+
+#footer {
+  height: 60px;
+  background-color: #313131;
+  margin-top:50px;
+  padding-top:20px;
+  padding-bottom:20px;
+ }
+
+
+.text-muted {
+	  color: #C1C0C0; 
+}
+
+.navbar-brand {
+    font-size: 38px;
+}
+.col-xs-12, .col-sm-6, .col-lg-8{
+	border-style: dotted;
+  padding-bottom: 100px;
+}
+.col-xs-6{
+	border-style: dotted;
+}
+
+ul.list{
+  list-style: none;
+}
+
+.background{
+  background-color: rgba(51, 183, 153, 0.13);
+}
+
+.login-form {
+   max-width: 300px;
+   margin: 0 auto;
+    }
+#inputUsername {
+   margin-bottom: -1px;
+   border-bottom-right-radius: 0;
+   border-bottom-left-radius: 0;
+}
+#inputPassword {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.ng-invalid {
+    border-color: red;
+    outline-color: red;
+}
+
+.ng-valid {
+    border-color: green;
+    outline-color: green;
+}
+
+.messages {
+  font-size: smaller;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  color: red;
+}

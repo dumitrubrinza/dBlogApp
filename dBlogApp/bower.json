@@ -1,0 +1,19 @@
+{
+  "name": "dBlogApp",
+  "description": "A starter project for AngularJS",
+  "version": "0.0.1",
+  "homepage": "https://github.com/angular/angular-seed",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "1.4.x",
+    "angular-mocks": "1.4.x",
+    "jquery": "~2.1.1",
+    "bootstrap": "3.3.6",
+    "angular-route": "1.4.x",
+    "angular-resource": "1.4.x",
+    "angular-messages": "1.4.x",
+    "angular-cookies": "1.4.x",
+    "angular-utils-pagination": "0.11.0"
+  }
+}

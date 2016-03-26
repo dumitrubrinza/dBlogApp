@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en" ng-app="dBlogApp" ng-cloak class="ng-cloak">
+<head>
+  <meta charset="utf-8">
+  <title>dBlogApp</title>
+
+   <!-- <script type="text/javascript" src="../scripts/angular.min.js"></script>
+    <script type="text/javascript" src="../scripts/angular-route.min.js"></script>-->
+   <script type="text/javascript" src="bower_components/angular/angular.min.js"></script> <!-- for more errors messages use angular.js not min -->
+   <script type="text/javascript" src="bower_components/angular-route/angular-route.min.js"></script>
+   <script type="text/javascript" src="bower_components/angular-messages/angular-messages.min.js"></script>
+   <script type="text/javascript" src="bower_components/angular-cookies/angular-cookies.min.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+   
+   <script type="text/javascript"  src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+<!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+    <link href="../styles/bootstrap.min.css" rel="stylesheet"> -->
+    <link href="css/custom.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+
+</head>
+ 
+<body >
+	 
+   <div ng-include="'./partials/navbar-view.html'"/>
+   </div>
+ 
+      <div class="container">
+      	 <div class="row">
+
+		      <div class="col-xs-12 col-sm-12 col-lg-8">
+
+		      	<div ng-view ></div>
+
+		      </div>    
+		            <div class="col-xs-6 col-lg-4">
+		              <div class="row">
+                          <div class="col-xs-12 col-lg-12">
+                          	<div ng-include="'./partials/list-view.html'"/> 
+                          </div>
+                  </div>
+                </div> 
+                  <div class="row">
+                      <div class="col-xs-12 col-lg-12"></div>
+                  </div>
+
+        </div>
+      </div>
+     </div>
+
+   <div ng-include="'./partials/footer.html'"/>
+   </div>
+ 
+   <script src="app.js"></script>
+   <script type="text/javascript" src="bower_components/angular-utils-pagination/dirPagination.js"></script>
+
+ </body>
+</html>

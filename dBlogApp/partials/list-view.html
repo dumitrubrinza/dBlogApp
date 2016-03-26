@@ -1,0 +1,12 @@
+<div ng-controller="ArticlesController">
+	<table class="table">
+                  <thead>
+                    <th class="name" >Articles</th>
+                  </thead>
+                  <tbody ng-repeat="article in articles | orderBy: '-createdAt':true">
+                    <tr>
+			          <td><a href="#/article/{{article.id}}">{{article.title}} </a></td>
+					</tr>
+				  </tbody>	
+	</table>
+</div>
